@@ -7,8 +7,6 @@ import './profile.styles.scss';
 const ProfilePage = ({ user }) => {
     const { displayName , email } = user;
     
-    console.log(user);
-
     return (
         <div className=''>
             <h2 className=''>My profile</h2>
