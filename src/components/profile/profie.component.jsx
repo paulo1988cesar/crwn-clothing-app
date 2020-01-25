@@ -5,6 +5,7 @@ import { selectCurrentUser } from '../../redux/user/user.selector';
 import './profile.styles.scss';
 
 const ProfilePage = ({ user }) => {
+    
     const { displayName , email } = user;
     
     return (
